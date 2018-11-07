@@ -1,0 +1,195 @@
+body{
+  background-color: #f2f4f7;
+  /* background-image: url(todolist.jpg); */
+}
+.cont,#task{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  /* width: 40px; */
+}
+
+.cont:hover{
+  background-color: #c8cace;
+}
+#task,#inp{
+  width:90%;
+  padding:5px;
+}
+
+#sp{
+  align:right;
+}
+.para{
+  width:60%;
+  height:40px;
+  border:1px solid #c1c6cc;
+  padding-left: 5px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.tick{
+  width:30px;
+  height:40px;
+  border-radius: 5
+}
+
+#update_btn,#confirm_btn{
+  margin-right: 5px;
+}
+
+#List li {
+cursor:pointer;
+display:block;
+margin:0;
+color: white;
+padding:21px 0;
+}
+
+#right-panel {
+font-family: 'Roboto','sans-serif';
+line-height: 30px;
+}
+
+#right-panel select, #right-panel input {
+font-size: 15px;
+}
+
+#right-panel select {
+width: 100%;
+}
+
+#right-panel i {
+font-size: 12px;
+}
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+.place{
+	font-size: 30px;
+}
+.city{
+	padding: 10px;
+	display: block;
+	cursor:pointer;
+    border-radius: 5%;
+}
+.city:hover{
+	background-color: #dee0e2;
+}
+.route{
+	display: block;
+	cursor: pointer;
+    border-radius: 3%;
+    padding: 10px;
+}
+.route:hover{
+	background-color: #ebeff4;
+}
+#map {
+width: 70%;
+height: 100%;
+}
+#right-panel {
+/*margin: 20px;
+border-width: 2px;
+*/width: 30%;
+height: 400px;
+float: left;
+text-align: left;
+padding-top: 0;
+}
+#directions-panel {
+margin-top: 10px;
+background-color: #FFEE77;
+padding: 10px;
+overflow: scroll;
+height: 174px;
+}
+.disableScroll{
+      overflow-y:hidden;
+      overflow-x:hidden;
+}
+#list > h5{
+	text-decoration: underline;
+}
+nav{
+        border-bottom: 4px solid #ff0066;
+    }
+    .section{
+        font-family: helvetica,arial;
+        font-weight:bold;
+        text-align:center;
+        position:relative;
+    }
+    /* .box{
+        position: absolute;
+   }
+    iframe{
+        position: absolute;
+        left:500px;
+        z-index: 100;
+        height:400px;
+        width:300px;
+    } */
+    p,h3{
+        color:black;
+        font-size: bold;
+    }
+    img{
+        width:100%;
+        height:600px;
+        border: 5px solid #0563fc;
+        /* position:absolute; */
+        /* opacity: 1.0;
+     filter: alpha(100); */
+        }
+    /* img:hover {
+    opacity: 0.5;
+    filter: alpha(50); /* For IE8 and earlier */
+    .carousel-indicators{
+        color:black;
+    }
+    .box1{
+        background-color:#aac4ef;
+    }
+    .box2{
+        background-color: #aac4ef;
+    }
+    .box3{
+        background-color: #aac4ef;
+    }
+    .box4{
+        background-color: #aac4ef;
+    }
+    .box5{
+        background-color: #aac4ef;
+    }
+    #fixedbutton {
+        width:20px;
+        height:20px;
+    position: fixed;
+    bottom: 60px;
+    right: 80px;
+}
+#icon{
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 4em;
+        color:blue;
+}
+.iconclass{
+    border: 2px solid black;
+ border-radius: 50%;
+ height:40px;
+ width:40px;
+}
+#myModal {
+  top:12%;
+  left:73%;
+  outline: none;
+  width:380px;
+}
